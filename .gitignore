@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+docx_qa/
+*-desktop.png
+*-mobile.png
+build_proposal.py
+*.docx
