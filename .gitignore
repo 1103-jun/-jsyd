@@ -10,3 +10,5 @@ docx_qa/
 *-mobile.png
 build_proposal.py
 *.docx
+.wbapp_*.genie
+.workbuddy/

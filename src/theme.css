@@ -1,0 +1,417 @@
+/* ---------------------------------------------------------------
+   吉时已到 · 外观主题层
+   四套外观（清晨森林 / 柔光新拟物 / 粘土拟态 / 晨雾沉浸玻璃）
+   + 可叠加在任意外观之上的夜间模式
+   --------------------------------------------------------------- */
+
+/* ============ 1. 清晨森林（默认 · 经典） ============ */
+:root,
+html[data-theme='forest'] {
+  --app-bg: #f5f4ef;
+  --ink: #202d28;
+  --sub: #6f7a71;
+  --accent: #315d4b;
+  --accent-soft: #527d68;
+  --on-accent: #fffefa;
+  --on-wash: #253f31;
+  --accent-wash: #e6eee7;
+  --line: #e2e5dc;
+  --fill-1: rgba(32, 45, 40, .045);
+  --fill-2: rgba(32, 45, 40, .07);
+  --fill-3: rgba(32, 45, 40, .1);
+  --fill-grad: linear-gradient(145deg, rgba(255, 255, 255, .97), rgba(251, 250, 245, .84));
+  --surface-strong: #fffefa;
+  --surface-2: #ffffff;
+  --glow-1: rgba(103, 128, 110, .22);
+  --glow-2: rgba(120, 140, 125, .15);
+  --blob: rgba(120, 150, 110, .13);
+  --stage-1: rgba(120, 150, 110, .16);
+  --stage-2: rgba(90, 110, 95, .1);
+  --stage-3: rgba(255, 255, 255, .55);
+  --nav-bg: rgba(255, 255, 254, .93);
+  --chip-bg: rgba(255, 255, 255, .9);
+  --field-bg: rgba(255, 255, 255, .88);
+  --well-bg: rgba(255, 255, 255, .55);
+  --overlay: rgba(26, 36, 31, .42);
+  --shadow-1: 0 1px 2px rgba(45, 58, 47, .06);
+  --shadow-2: 0 12px 34px rgba(45, 58, 47, .16);
+  --shadow-c: rgba(45, 58, 47, .12);
+  --shadow-c-strong: rgba(45, 58, 47, .22);
+  --danger: #c2603f;
+  --accent-a05: rgba(49, 93, 75, .05);
+  --accent-a10: rgba(49, 93, 75, .1);
+  --accent-a15: rgba(49, 93, 75, .15);
+  --accent-a20: rgba(49, 93, 75, .2);
+  --accent-a30: rgba(49, 93, 75, .3);
+  --accent-a40: rgba(49, 93, 75, .4);
+  --accent-a50: rgba(49, 93, 75, .5);
+  --panel-radius: 22px;
+}
+
+/* ============ 2. 柔光新拟物 ============ */
+html[data-theme='neumorphic'] {
+  --app-bg: #e7ebe7;
+  --ink: #35413b;
+  --sub: #7d8a82;
+  --accent: #527b64;
+  --accent-soft: #71947c;
+  --on-accent: #fffefa;
+  --on-wash: #2c4740;
+  --accent-wash: #dfe7e0;
+  --line: #d5ddd6;
+  --fill-1: rgba(53, 65, 59, .05);
+  --fill-2: rgba(53, 65, 59, .08);
+  --fill-3: rgba(53, 65, 59, .11);
+  --fill-grad: linear-gradient(145deg, rgba(247, 250, 247, .96), rgba(226, 233, 226, .92));
+  --surface-strong: #eef2ee;
+  --surface-2: #e9ede9;
+  --glow-1: rgba(150, 168, 155, .24);
+  --glow-2: rgba(170, 186, 175, .18);
+  --blob: rgba(160, 180, 165, .18);
+  --stage-1: rgba(150, 170, 158, .2);
+  --stage-2: rgba(120, 140, 128, .12);
+  --stage-3: rgba(255, 255, 255, .6);
+  --nav-bg: rgba(238, 242, 238, .92);
+  --chip-bg: rgba(245, 248, 245, .92);
+  --field-bg: rgba(244, 248, 244, .9);
+  --well-bg: rgba(240, 244, 240, .7);
+  --overlay: rgba(38, 48, 42, .4);
+  --shadow-1: 2px 2px 5px rgba(163, 178, 166, .35), -2px -2px 5px rgba(255, 255, 255, .9);
+  --shadow-2: 10px 10px 22px rgba(163, 178, 166, .5), -10px -10px 22px rgba(255, 255, 255, .95);
+  --shadow-c: rgba(120, 140, 128, .16);
+  --shadow-c-strong: rgba(110, 130, 118, .26);
+  --danger: #b9674b;
+  --accent-a05: rgba(82, 123, 100, .06);
+  --accent-a10: rgba(82, 123, 100, .11);
+  --accent-a15: rgba(82, 123, 100, .16);
+  --accent-a20: rgba(82, 123, 100, .22);
+  --accent-a30: rgba(82, 123, 100, .32);
+  --accent-a40: rgba(82, 123, 100, .42);
+  --accent-a50: rgba(82, 123, 100, .55);
+  --panel-radius: 24px;
+}
+
+/* ============ 3. 粘土拟态 ============ */
+html[data-theme='clay'] {
+  --app-bg: #f7f0e7;
+  --ink: #453629;
+  --sub: #8b7663;
+  --accent: #3f6b52;
+  --accent-soft: #5f8a6e;
+  --on-accent: #fffdf6;
+  --on-wash: #2f4a3a;
+  --accent-wash: #e8f1e6;
+  --line: #e7ddcf;
+  --fill-1: rgba(112, 86, 58, .05);
+  --fill-2: rgba(112, 86, 58, .08);
+  --fill-3: rgba(112, 86, 58, .11);
+  --fill-grad: linear-gradient(145deg, rgba(255, 253, 247, .97), rgba(248, 240, 228, .9));
+  --surface-strong: #fffdf7;
+  --surface-2: #fdf6ec;
+  --glow-1: rgba(180, 150, 115, .24);
+  --glow-2: rgba(140, 165, 140, .18);
+  --blob: rgba(180, 150, 110, .16);
+  --stage-1: rgba(140, 170, 140, .18);
+  --stage-2: rgba(150, 125, 95, .12);
+  --stage-3: rgba(255, 255, 255, .6);
+  --nav-bg: rgba(255, 253, 247, .94);
+  --chip-bg: rgba(255, 253, 247, .92);
+  --field-bg: rgba(255, 253, 247, .92);
+  --well-bg: rgba(255, 250, 240, .75);
+  --overlay: rgba(60, 45, 30, .42);
+  --shadow-1: 0 2px 0 rgba(112, 86, 58, .1);
+  --shadow-2: 0 22px 32px rgba(112, 86, 58, .18);
+  --shadow-c: rgba(112, 86, 58, .18);
+  --shadow-c-strong: rgba(112, 86, 58, .28);
+  --danger: #c1613c;
+  --accent-a05: rgba(63, 107, 82, .06);
+  --accent-a10: rgba(63, 107, 82, .11);
+  --accent-a15: rgba(63, 107, 82, .16);
+  --accent-a20: rgba(63, 107, 82, .22);
+  --accent-a30: rgba(63, 107, 82, .32);
+  --accent-a40: rgba(63, 107, 82, .42);
+  --accent-a50: rgba(63, 107, 82, .55);
+  --panel-radius: 30px;
+}
+
+/* ============ 4. 晨雾沉浸玻璃 ============ */
+html[data-theme='immersive'] {
+  --app-bg: #dce5e8;
+  --ink: #20323a;
+  --sub: #5c737d;
+  --accent: #315f73;
+  --accent-soft: #5e8492;
+  --on-accent: #f2f8fa;
+  --on-wash: #1e3d49;
+  --accent-wash: #e0edf0;
+  --line: rgba(255, 255, 255, .68);
+  --fill-1: rgba(255, 255, 255, .4);
+  --fill-2: rgba(255, 255, 255, .5);
+  --fill-3: rgba(255, 255, 255, .62);
+  --fill-grad: linear-gradient(145deg, rgba(255, 255, 255, .74), rgba(255, 255, 255, .32));
+  --surface-strong: rgba(245, 249, 250, .86);
+  --surface-2: rgba(240, 247, 249, .78);
+  --glow-1: rgba(120, 165, 180, .32);
+  --glow-2: rgba(150, 180, 190, .26);
+  --blob: rgba(200, 225, 230, .34);
+  --stage-1: rgba(160, 195, 205, .24);
+  --stage-2: rgba(90, 130, 145, .16);
+  --stage-3: rgba(255, 255, 255, .5);
+  --nav-bg: rgba(245, 249, 250, .78);
+  --chip-bg: rgba(255, 255, 255, .72);
+  --field-bg: rgba(255, 255, 255, .55);
+  --well-bg: rgba(255, 255, 255, .5);
+  --overlay: rgba(18, 34, 42, .45);
+  --shadow-1: 0 1px 2px rgba(42, 68, 78, .1);
+  --shadow-2: 0 18px 42px rgba(42, 68, 78, .17);
+  --shadow-c: rgba(42, 68, 78, .16);
+  --shadow-c-strong: rgba(42, 68, 78, .26);
+  --danger: #c4664a;
+  --accent-a05: rgba(49, 95, 115, .06);
+  --accent-a10: rgba(49, 95, 115, .12);
+  --accent-a15: rgba(49, 95, 115, .18);
+  --accent-a20: rgba(49, 95, 115, .24);
+  --accent-a30: rgba(49, 95, 115, .34);
+  --accent-a40: rgba(49, 95, 115, .44);
+  --accent-a50: rgba(49, 95, 115, .58);
+  --panel-radius: 23px;
+}
+
+/* ============ 夜间模式（叠加在任意外观之上） ============ */
+html[data-night='true'] {
+  --app-bg: #202527;
+  --ink: #e9f0e6;
+  --sub: #8b9883;
+  --accent: #d4f398;
+  --accent-soft: #aec79a;
+  --on-accent: #25321f;
+  --on-wash: #25321f;
+  --accent-wash: #c7e2a9;
+  --line: rgba(255, 255, 255, .16);
+  --fill-1: rgba(255, 255, 255, .05);
+  --fill-2: rgba(255, 255, 255, .08);
+  --fill-3: rgba(255, 255, 255, .12);
+  --fill-grad: linear-gradient(145deg, rgba(255, 255, 255, .09), rgba(255, 255, 255, .03));
+  --surface-strong: #2b342d;
+  --surface-2: #2a3534;
+  --glow-1: rgba(88, 99, 92, .4);
+  --glow-2: rgba(58, 71, 69, .33);
+  --blob: rgba(108, 126, 75, .12);
+  --stage-1: rgba(168, 197, 163, .11);
+  --stage-2: rgba(52, 60, 62, .2);
+  --stage-3: rgba(228, 243, 196, .04);
+  --nav-bg: rgba(52, 60, 54, .87);
+  --chip-bg: rgba(23, 32, 27, .8);
+  --field-bg: rgba(23, 30, 27, .38);
+  --well-bg: rgba(23, 34, 21, .33);
+  --overlay: rgba(17, 25, 21, .73);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .3);
+  --shadow-2: 0 12px 40px rgba(0, 0, 0, .45);
+  --shadow-c: rgba(0, 0, 0, .35);
+  --shadow-c-strong: rgba(0, 0, 0, .55);
+  --danger: #f5c7a7;
+  --accent-a05: rgba(212, 243, 152, .05);
+  --accent-a10: rgba(212, 243, 152, .1);
+  --accent-a15: rgba(212, 243, 152, .15);
+  --accent-a20: rgba(212, 243, 152, .2);
+  --accent-a30: rgba(212, 243, 152, .3);
+  --accent-a40: rgba(212, 243, 152, .4);
+  --accent-a50: rgba(212, 243, 152, .5);
+}
+html[data-night='true'][data-theme='neumorphic'] { --app-bg: #232a26; --surface-strong: #2d3531; --surface-2: #29312d; }
+html[data-night='true'][data-theme='clay'] { --app-bg: #221e18; --surface-strong: #2b2620; --surface-2: #282320; --accent-wash: #cddcae; }
+html[data-night='true'][data-theme='immersive'] { --app-bg: #16222b; --surface-strong: rgba(23, 34, 42, .82); --surface-2: rgba(22, 32, 40, .74); --nav-bg: rgba(22, 32, 40, .82); }
+
+/* ============ 外观特效 ============ */
+
+/* 通用：面板类容器统一圆角 + 主题阴影 */
+.panel,
+.mini-alarm,
+.tomorrow-card,
+.qwen-card,
+.commute-teaser,
+.map-panel,
+.places-panel,
+.plans-panel,
+.mode-panel,
+.plan-result,
+.editor-window,
+.ring-window {
+  transition: background-color .28s, border-color .28s, box-shadow .28s, border-radius .28s;
+}
+
+/* --- 柔光新拟物：双向柔影 + 玻璃高光 --- */
+html[data-theme='neumorphic'] .panel,
+html[data-theme='neumorphic'] .mini-alarm,
+html[data-theme='neumorphic'] .tomorrow-card,
+html[data-theme='neumorphic'] .map-panel,
+html[data-theme='neumorphic'] .places-panel,
+html[data-theme='neumorphic'] .plans-panel,
+html[data-theme='neumorphic'] .mode-panel,
+html[data-theme='neumorphic'] .commute-teaser,
+html[data-theme='neumorphic'] .editor-window,
+html[data-theme='neumorphic'] .ring-window {
+  border-radius: var(--panel-radius);
+  border-color: rgba(255, 255, 255, .78);
+  box-shadow: 10px 10px 22px rgba(163, 178, 166, .5), -10px -10px 22px rgba(255, 255, 255, .95),
+    inset 1px 1px 0 rgba(255, 255, 255, .9);
+}
+html[data-night='true'][data-theme='neumorphic'] .panel,
+html[data-night='true'][data-theme='neumorphic'] .mini-alarm,
+html[data-night='true'][data-theme='neumorphic'] .tomorrow-card,
+html[data-night='true'][data-theme='neumorphic'] .map-panel,
+html[data-night='true'][data-theme='neumorphic'] .places-panel,
+html[data-night='true'][data-theme='neumorphic'] .plans-panel,
+html[data-night='true'][data-theme='neumorphic'] .mode-panel,
+html[data-night='true'][data-theme='neumorphic'] .commute-teaser {
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, .38), -6px -6px 16px rgba(255, 255, 255, .04),
+    inset 1px 1px 0 rgba(255, 255, 255, .06);
+  border-color: rgba(255, 255, 255, .07);
+}
+html[data-theme='neumorphic'] .lime-button,
+html[data-theme='neumorphic'] .soft-button,
+html[data-theme='neumorphic'] .dark-button,
+html[data-theme='neumorphic'] .face-button,
+html[data-theme='neumorphic'] .agent-emblem {
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .45), 5px 6px 12px rgba(77, 108, 87, .24);
+  border: 1px solid rgba(255, 255, 255, .5);
+}
+html[data-theme='neumorphic'] .icon-btn,
+html[data-theme='neumorphic'] .round-symbol,
+html[data-theme='neumorphic'] .capsule {
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, .95), inset -2px -2px 4px rgba(159, 174, 161, .22),
+    4px 4px 10px rgba(164, 176, 165, .16);
+  border: 1px solid rgba(255, 255, 255, .8);
+}
+html[data-theme='neumorphic'] .soft-button:active,
+html[data-theme='neumorphic'] .lime-button:active { transform: scale(.95); }
+
+/* --- 粘土拟态：充气大圆角 + 弹簧浮起 --- */
+html[data-theme='clay'] .panel,
+html[data-theme='clay'] .mini-alarm,
+html[data-theme='clay'] .tomorrow-card,
+html[data-theme='clay'] .map-panel,
+html[data-theme='clay'] .places-panel,
+html[data-theme='clay'] .plans-panel,
+html[data-theme='clay'] .mode-panel,
+html[data-theme='clay'] .commute-teaser,
+html[data-theme='clay'] .editor-window,
+html[data-theme='clay'] .ring-window,
+html[data-theme='clay'] .qwen-card {
+  border-radius: var(--panel-radius);
+  box-shadow: inset 2px 3px 0 rgba(255, 255, 255, .85), inset -2px -4px 0 rgba(112, 86, 58, .13),
+    0 22px 34px rgba(112, 86, 58, .14);
+  transition: transform .4s cubic-bezier(.34, 1.56, .64, 1), box-shadow .3s, background-color .28s;
+}
+html[data-night='true'][data-theme='clay'] .panel,
+html[data-night='true'][data-theme='clay'] .mini-alarm,
+html[data-night='true'][data-theme='clay'] .tomorrow-card,
+html[data-night='true'][data-theme='clay'] .map-panel,
+html[data-night='true'][data-theme='clay'] .places-panel,
+html[data-night='true'][data-theme='clay'] .plans-panel,
+html[data-night='true'][data-theme='clay'] .mode-panel,
+html[data-night='true'][data-theme='clay'] .commute-teaser {
+  box-shadow: inset 2px 3px 0 rgba(255, 255, 255, .07), inset -2px -4px 0 rgba(0, 0, 0, .28),
+    0 20px 30px rgba(0, 0, 0, .4);
+}
+html[data-theme='clay'] .lime-button,
+html[data-theme='clay'] .soft-button,
+html[data-theme='clay'] .dark-button,
+html[data-theme='clay'] .icon-btn,
+html[data-theme='clay'] .face-button,
+html[data-theme='clay'] .round-symbol,
+html[data-theme='clay'] .mode-card,
+html[data-theme='clay'] .place-card {
+  border-radius: 24px;
+  box-shadow: inset 0 3px 0 rgba(255, 255, 255, .42), inset 0 -4px 0 rgba(120, 95, 65, .14),
+    0 12px 18px rgba(112, 86, 58, .18);
+}
+html[data-theme='clay'] button:active,
+html[data-theme='clay'] .mode-card:active { transform: translateY(3px) scale(.985); }
+html[data-theme='clay'] .mini-alarm { border-radius: 28px; }
+
+/* --- 晨雾沉浸玻璃：毛玻璃层级 + 背景景深 --- */
+html[data-theme='immersive'] .studio:before {
+  width: 780px;
+  height: 780px;
+  background: radial-gradient(circle at 40% 35%, rgba(255, 255, 255, .55), rgba(190, 215, 220, .18) 55%, transparent 72%);
+  filter: blur(38px);
+}
+html[data-theme='immersive'] .panel,
+html[data-theme='immersive'] .mini-alarm,
+html[data-theme='immersive'] .tomorrow-card,
+html[data-theme='immersive'] .map-panel,
+html[data-theme='immersive'] .places-panel,
+html[data-theme='immersive'] .plans-panel,
+html[data-theme='immersive'] .mode-panel,
+html[data-theme='immersive'] .commute-teaser,
+html[data-theme='immersive'] .editor-window,
+html[data-theme='immersive'] .ring-window,
+html[data-theme='immersive'] .bottom-nav {
+  border-radius: var(--panel-radius);
+  backdrop-filter: blur(20px) saturate(1.35);
+  -webkit-backdrop-filter: blur(20px) saturate(1.35);
+  border-color: rgba(255, 255, 255, .7);
+}
+html[data-theme='immersive'] .studio-main > * { position: relative; z-index: 1; }
+html[data-theme='immersive'] .clock-stage,
+html[data-theme='immersive'] .map-display { backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+
+/* ============ 主题选择器 ============ */
+.theme-panel { margin-bottom: 20px; }
+.theme-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.theme-option {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) 16px;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--fill-1);
+  color: var(--ink);
+  transition: transform .2s, border-color .2s, background .2s;
+}
+.theme-option:hover { background: var(--fill-2); }
+.theme-option:active { transform: scale(.98); }
+.theme-option.selected {
+  border-color: var(--accent);
+  background: var(--accent-a10);
+  box-shadow: inset 0 0 0 1px var(--accent-a30);
+}
+.theme-preview {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background: var(--preview-bg, #f5f4ef);
+  border: 1px solid var(--preview-border, #e8e7df);
+}
+.theme-preview i { display: block; width: 7px; height: 17px; border-radius: 4px; background: var(--preview-accent, #dce9da); }
+.theme-preview i:nth-child(2) { height: 24px; background: var(--preview-primary, #315d4b); }
+.theme-preview i:nth-child(3) { height: 13px; background: var(--preview-secondary, #d67a5a); }
+.theme-forest { --preview-bg: #f5f4ef; --preview-border: #e8e7df; --preview-accent: #dce9da; --preview-primary: #315d4b; --preview-secondary: #d67a5a; }
+.theme-neumorphic { --preview-bg: #e7ebe7; --preview-border: #d5ddd6; --preview-accent: #dfe7e0; --preview-primary: #527b64; --preview-secondary: #c98068; }
+.theme-clay { --preview-bg: #f7f0e7; --preview-border: #e7ddcf; --preview-accent: #e8f1e6; --preview-primary: #3f6b52; --preview-secondary: #d68a5a; }
+.theme-immersive { --preview-bg: #dce5e8; --preview-border: rgba(255, 255, 255, .8); --preview-accent: #e0edf0; --preview-primary: #315f73; --preview-secondary: #d28b72; }
+.theme-option strong { display: block; font-size: 11px; font-weight: 500; }
+.theme-option small { display: block; font-size: 9px; color: var(--sub); margin-top: 4px; line-height: 1.5; }
+.theme-radio { width: 15px; height: 15px; border: 1px solid var(--line); border-radius: 50%; display: grid; place-items: center; }
+.theme-option.selected .theme-radio { border-color: var(--accent); }
+.theme-option.selected .theme-radio:after { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.night-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.night-row strong { display: block; font-size: 12px; font-weight: 400; }
+.night-row small { display: block; font-size: 10px; color: var(--sub); margin-top: 6px; line-height: 1.7; }
+@media (max-width: 640px) {
+  .theme-options { gap: 8px; }
+  .theme-option { grid-template-columns: 32px minmax(0, 1fr) 14px; gap: 8px; padding: 10px 9px; }
+  .theme-preview { width: 32px; height: 32px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *:before, *:after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
