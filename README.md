@@ -1,4 +1,4 @@
-# 吉时已到 功能 Demo
+# 吉时 功能 Demo
 
 ## Vercel 发布
 
